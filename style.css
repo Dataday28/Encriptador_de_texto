@@ -1,0 +1,115 @@
+* {
+    background: #f3f5fc;
+    font-family: 'inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.logo {
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 10%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area {
+    border: none;
+    color: #0A3871;
+    margin-top: 90px;
+    margin-left: 80px;
+    text-transform: lowercase;
+}
+
+::placeholder {color: #0A3871;}
+    .text-area:focus {
+        outline: none;
+    }
+
+.mnsj {
+    background: white;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 10px;
+    margin-top: 90px;
+    position: fixed;
+}
+
+.mnsj:focus {
+    outline: none;
+}
+
+.botones {
+    display: flex;
+    margin-top: 10px;
+}
+
+.btn-descry {
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 20px;
+    width: 328px;
+}
+
+.btn-encry {
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    margin-left: 400px;
+
+}
+
+.btn2 {
+    display: flex;
+    margin-top: 550px;
+}
+
+.copy {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 120px;
+    width: 150px;
+}
+
+.page {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 20px;
+    width: 150px;
+}
+
+.delt {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 20px;
+    width: 150px;
+}
+
+.informacion {
+    color: #495057;
+    font-size: 18px;
+    margin-left: 100px;
+}
